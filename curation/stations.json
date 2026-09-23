@@ -7,7 +7,7 @@
         "unionSquare",
         "yerbaBuenaMoscone",
         "fourthBrannan",
-        "fourthKingT"
+        "fourthKing"
       ]
     },
     "marketStreetSubway": {
@@ -8028,11 +8028,7 @@
       ],
       "transfers": [
         {
-          "to": "fourthKingN",
-          "mode": "street"
-        },
-        {
-          "to": "fourthKingT",
+          "to": "fourthKing",
           "mode": "street"
         }
       ]
@@ -8073,29 +8069,14 @@
         }
       ]
     },
-    "fourthKingN": {
+    "fourthKing": {
       "name": "4th & King",
       "platforms": [
         {
           "id": "SF:15240",
           "heading": "northbound",
           "name": "Ocean Beach via Embarcadero"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "fourthKingT",
-          "mode": "street"
-        }
-      ],
-      "transferAgencies": [
-        "CT"
-      ],
-      "verified": "2026-09-22"
-    },
-    "fourthKingT": {
-      "name": "4th & King",
-      "platforms": [
+        },
         {
           "id": "SF:17166",
           "heading": "northbound"
@@ -8109,15 +8090,14 @@
           "heading": "northbound"
         }
       ],
-      "transfers": [
-        {
-          "to": "fourthKingN",
-          "mode": "street"
-        }
-      ],
       "transferAgencies": [
         "CT"
-      ]
+      ],
+      "formerIds": [
+        "fourthKingN",
+        "fourthKingT"
+      ],
+      "note": "Merged from fourthKingN (the N's stop on King St) and fourthKingT (the T's stops on 4th St), across the corner from each other."
     },
     "fourthTownsend": {
       "name": "4th & Townsend",
@@ -8141,11 +8121,7 @@
       ],
       "transfers": [
         {
-          "to": "fourthKingN",
-          "mode": "street"
-        },
-        {
-          "to": "fourthKingT",
+          "to": "fourthKing",
           "mode": "street"
         }
       ]
@@ -21630,11 +21606,7 @@
       ],
       "transfers": [
         {
-          "to": "fourthKingN",
-          "mode": "street"
-        },
-        {
-          "to": "fourthKingT",
+          "to": "fourthKing",
           "mode": "street"
         }
       ]
