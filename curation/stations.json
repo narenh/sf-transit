@@ -3713,29 +3713,6 @@
       ],
       "verified": "2026-09-22"
     },
-    "churchDuboceJ": {
-      "name": "Church & Duboce",
-      "platforms": [
-        {
-          "id": "SF:14006",
-          "heading": "eastbound"
-        },
-        {
-          "id": "SF:17074",
-          "heading": "northbound"
-        },
-        {
-          "id": "SF:14005",
-          "heading": "southbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "duboceChurchN",
-          "mode": "street"
-        }
-      ]
-    },
     "churchMarket": {
       "name": "Church & Market",
       "platforms": [
@@ -5792,18 +5769,30 @@
         {
           "id": "SF:18061",
           "heading": "eastbound"
+        },
+        {
+          "id": "SF:14006",
+          "heading": "eastbound"
+        },
+        {
+          "id": "SF:17074",
+          "heading": "northbound"
+        },
+        {
+          "id": "SF:14005",
+          "heading": "southbound"
         }
       ],
       "transfers": [
         {
-          "to": "churchDuboceJ",
-          "mode": "street"
-        },
-        {
           "to": "church",
           "mode": "street"
         }
-      ]
+      ],
+      "formerIds": [
+        "churchDuboceJ"
+      ],
+      "note": "Church & Duboce (was churchDuboceJ: the J's one-way stop and the 22's stops on Church) merged into the N's Duboce & Church."
     },
     "duboceNoe": {
       "name": "Duboce & Noe (Sunset Tunnel East Portal)",
@@ -7926,15 +7915,11 @@
           "mode": "street"
         },
         {
-          "to": "churchDuboceJ",
+          "to": "duboceChurchN",
           "mode": "street"
         },
         {
           "to": "churchMarket",
-          "mode": "street"
-        },
-        {
-          "to": "duboceChurchN",
           "mode": "street"
         }
       ]
@@ -9882,10 +9867,6 @@
         }
       ],
       "transfers": [
-        {
-          "to": "churchDuboceJ",
-          "mode": "street"
-        },
         {
           "to": "duboceChurchN",
           "mode": "street"
