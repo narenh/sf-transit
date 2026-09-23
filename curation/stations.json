@@ -12310,33 +12310,6 @@
         }
       ]
     },
-    "market16": {
-      "name": "Market & 16th",
-      "platforms": [
-        {
-          "id": "SF:15654",
-          "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "castro",
-          "mode": "street"
-        },
-        {
-          "to": "castroPlaza",
-          "mode": "street"
-        },
-        {
-          "to": "marketNoe",
-          "mode": "street"
-        },
-        {
-          "to": "seventeenthNoe",
-          "mode": "street"
-        }
-      ]
-    },
     "market17": {
       "name": "Market & 17th",
       "platforms": [
@@ -12744,9 +12717,29 @@
           "id": "SF:15687",
           "heading": "eastbound",
           "name": "To Pier 39"
+        },
+        {
+          "id": "SF:15654",
+          "heading": "westbound"
         }
       ],
-      "verified": "2026-09-22"
+      "transfers": [
+        {
+          "to": "castro",
+          "mode": "street"
+        },
+        {
+          "to": "castroPlaza",
+          "mode": "street"
+        },
+        {
+          "to": "seventeenthNoe",
+          "mode": "street"
+        }
+      ],
+      "formerIds": [
+        "market16"
+      ]
     },
     "marketSanchez": {
       "name": "Market & Sanchez",
