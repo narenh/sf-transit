@@ -20336,64 +20336,46 @@
         }
       ]
     },
-    "transitCenterBay27": {
-      "name": "Transit Center Bay 27",
-      "platforms": [
-        {
-          "id": "SF:17918",
-          "heading": "southbound",
-          "name": "Bay 27"
-        }
-      ]
-    },
-    "transitCenterBay29": {
-      "name": "Transit Center Bay 29",
-      "platforms": [
-        {
-          "id": "SF:17948",
-          "heading": "northbound",
-          "name": "Bay 29"
-        }
-      ]
-    },
     "transitCenterBayB": {
-      "name": "Transit Center Bay B",
+      "name": "Salesforce Transit Center",
       "platforms": [
         {
           "id": "SF:17914",
           "heading": "westbound",
           "name": "Bay B"
-        }
-      ]
-    },
-    "transitCenterBayC": {
-      "name": "Transit Center Bay C",
-      "platforms": [
-        {
-          "id": "SF:17915",
-          "heading": "westbound",
-          "name": "Bay C"
-        }
-      ]
-    },
-    "transitCenterBayD": {
-      "name": "Transit Center Bay D",
-      "platforms": [
-        {
-          "id": "SF:17916",
-          "heading": "southbound",
-          "name": "Bay D"
-        }
-      ]
-    },
-    "transitCenterBayE": {
-      "name": "Transit Center Bay E",
-      "platforms": [
+        },
         {
           "id": "SF:17917",
           "heading": "westbound",
           "name": "Bay E"
+        },
+        {
+          "id": "SF:17915",
+          "heading": "westbound",
+          "name": "Bay C"
+        },
+        {
+          "id": "SF:17916",
+          "heading": "southbound",
+          "name": "Bay D"
+        },
+        {
+          "id": "SF:17948",
+          "heading": "northbound",
+          "name": "Bay 29"
+        },
+        {
+          "id": "SF:17918",
+          "heading": "southbound",
+          "name": "Bay 27"
         }
+      ],
+      "formerIds": [
+        "transitCenterBayE",
+        "transitCenterBayC",
+        "transitCenterBayD",
+        "transitCenterBay29",
+        "transitCenterBay27"
       ]
     },
     "turkBaker": {
