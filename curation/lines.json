@@ -1,0 +1,67 @@
+{
+  "SF:F": {
+    "name": "F Market & Wharves",
+    "color": "#B49A36",
+    "mode": "streetcar",
+    "note": "511 calls the F metro, like J-T. It is a heritage streetcar."
+  },
+  "SF:FBUS": {
+    "replaces": [
+      "SF:F"
+    ]
+  },
+  "SF:J": {
+    "name": "J Church",
+    "color": "#FAA633"
+  },
+  "SF:K": {
+    "name": "K Ingleside",
+    "color": "#579EBF"
+  },
+  "SF:KBUS": {
+    "replaces": [
+      "SF:K"
+    ]
+  },
+  "SF:L": {
+    "name": "L Taraval",
+    "color": "#91268F"
+  },
+  "SF:LOWL": {
+    "replaces": [
+      "SF:L"
+    ]
+  },
+  "SF:M": {
+    "name": "M Ocean View",
+    "color": "#008552"
+  },
+  "SF:N": {
+    "name": "N Judah",
+    "color": "#00529C"
+  },
+  "SF:NBUS": {
+    "replaces": [
+      "SF:N"
+    ]
+  },
+  "SF:NOWL": {
+    "replaces": [
+      "SF:N"
+    ]
+  },
+  "SF:S": {
+    "name": "S Shuttle",
+    "color": "#FCDB00",
+    "hidden": true
+  },
+  "SF:T": {
+    "name": "T Third Street",
+    "color": "#D60F45"
+  },
+  "SF:TBUS": {
+    "replaces": [
+      "SF:T"
+    ]
+  }
+}

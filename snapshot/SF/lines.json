@@ -1,0 +1,546 @@
+{
+  "SF:1": {
+    "shortName": "1",
+    "longName": "CALIFORNIA",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:12": {
+    "shortName": "12",
+    "longName": "FOLSOM-PACIFIC",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:14": {
+    "shortName": "14",
+    "longName": "MISSION",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:14R": {
+    "shortName": "14R",
+    "longName": "MISSION RAPID",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#BF2B45",
+    "textColor": "#FFFFFF"
+  },
+  "SF:15": {
+    "shortName": "15",
+    "longName": "BAYVIEW HUNTERS POINT EXPRESS",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:18": {
+    "shortName": "18",
+    "longName": "46TH AVENUE",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:19": {
+    "shortName": "19",
+    "longName": "POLK",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:1X": {
+    "shortName": "1X",
+    "longName": "CALIFORNIA EXPRESS",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#BF2B45",
+    "textColor": "#FFFFFF"
+  },
+  "SF:2": {
+    "shortName": "2",
+    "longName": "SUTTER",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:22": {
+    "shortName": "22",
+    "longName": "FILLMORE",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:23": {
+    "shortName": "23",
+    "longName": "MONTEREY",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:24": {
+    "shortName": "24",
+    "longName": "DIVISADERO",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:25": {
+    "shortName": "25",
+    "longName": "TREASURE ISLAND",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:27": {
+    "shortName": "27",
+    "longName": "BRYANT",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:28": {
+    "shortName": "28",
+    "longName": "19TH AVENUE",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:28R": {
+    "shortName": "28R",
+    "longName": "19TH AVENUE RAPID",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#BF2B45",
+    "textColor": "#FFFFFF"
+  },
+  "SF:29": {
+    "shortName": "29",
+    "longName": "SUNSET",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:30": {
+    "shortName": "30",
+    "longName": "STOCKTON",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:30X": {
+    "shortName": "30X",
+    "longName": "MARINA EXPRESS",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:31": {
+    "shortName": "31",
+    "longName": "BALBOA",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:33": {
+    "shortName": "33",
+    "longName": "ASHBURY-18TH ST",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:35": {
+    "shortName": "35",
+    "longName": "EUREKA",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:36": {
+    "shortName": "36",
+    "longName": "TERESITA",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:37": {
+    "shortName": "37",
+    "longName": "CORBETT",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:38": {
+    "shortName": "38",
+    "longName": "GEARY",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:38R": {
+    "shortName": "38R",
+    "longName": "GEARY RAPID",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#BF2B45",
+    "textColor": "#FFFFFF"
+  },
+  "SF:39": {
+    "shortName": "39",
+    "longName": "COIT",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:43": {
+    "shortName": "43",
+    "longName": "MASONIC",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:44": {
+    "shortName": "44",
+    "longName": "O'SHAUGHNESSY",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:45": {
+    "shortName": "45",
+    "longName": "UNION-STOCKTON",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:48": {
+    "shortName": "48",
+    "longName": "QUINTARA-24TH STREET",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:49": {
+    "shortName": "49",
+    "longName": "VAN NESS-MISSION",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:5": {
+    "shortName": "5",
+    "longName": "FULTON",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:52": {
+    "shortName": "52",
+    "longName": "EXCELSIOR",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:54": {
+    "shortName": "54",
+    "longName": "FELTON",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:55": {
+    "shortName": "55",
+    "longName": "DOGPATCH",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:56": {
+    "shortName": "56",
+    "longName": "RUTLAND",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:57": {
+    "shortName": "57",
+    "longName": "PARKMERCED",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:58": {
+    "shortName": "58",
+    "longName": "LAKE MERCED",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:5R": {
+    "shortName": "5R",
+    "longName": "FULTON RAPID",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#BF2B45",
+    "textColor": "#FFFFFF"
+  },
+  "SF:6": {
+    "shortName": "6",
+    "longName": "HAYES-PARNASSUS",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:66": {
+    "shortName": "66",
+    "longName": "QUINTARA",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:67": {
+    "shortName": "67",
+    "longName": "BERNAL HEIGHTS",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:7": {
+    "shortName": "7",
+    "longName": "HAIGHT-NORIEGA",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:714": {
+    "shortName": "714",
+    "longName": "BART EARLY BIRD",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:8": {
+    "shortName": "8",
+    "longName": "BAYSHORE",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:8AX": {
+    "shortName": "8AX",
+    "longName": "BAYSHORE A EXPRESS",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:8BX": {
+    "shortName": "8BX",
+    "longName": "BAYSHORE B EXPRESS",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:9": {
+    "shortName": "9",
+    "longName": "SAN BRUNO",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:90": {
+    "shortName": "90",
+    "longName": "SAN BRUNO OWL",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#666666",
+    "textColor": "#FFFFFF"
+  },
+  "SF:91": {
+    "shortName": "91",
+    "longName": "3RD-19TH AVE OWL",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#666666",
+    "textColor": "#FFFFFF"
+  },
+  "SF:9R": {
+    "shortName": "9R",
+    "longName": "SAN BRUNO RAPID",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#BF2B45",
+    "textColor": "#FFFFFF"
+  },
+  "SF:CA": {
+    "shortName": "CA",
+    "longName": "CALIFORNIA STREET CABLE CAR",
+    "mode": "cableway",
+    "routeType": 5,
+    "color": "#B49A36",
+    "textColor": "#000000"
+  },
+  "SF:F": {
+    "shortName": "F",
+    "longName": "MARKET & WHARVES",
+    "mode": "metro",
+    "routeType": 0,
+    "color": "#B49A36",
+    "textColor": "#000000"
+  },
+  "SF:FBUS": {
+    "shortName": "FBUS",
+    "longName": "MARKET & WHARVES BUS",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#B49A36",
+    "textColor": "#000000"
+  },
+  "SF:J": {
+    "shortName": "J",
+    "longName": "CHURCH",
+    "mode": "metro",
+    "routeType": 0,
+    "color": "#A96614",
+    "textColor": "#FFFFFF"
+  },
+  "SF:K": {
+    "shortName": "K",
+    "longName": "INGLESIDE",
+    "mode": "metro",
+    "routeType": 0,
+    "color": "#437C93",
+    "textColor": "#FFFFFF"
+  },
+  "SF:KBUS": {
+    "shortName": "KBUS",
+    "longName": "INGLESIDE BUS",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#437C93",
+    "textColor": "#FFFFFF"
+  },
+  "SF:L": {
+    "shortName": "L",
+    "longName": "TARAVAL",
+    "mode": "metro",
+    "routeType": 0,
+    "color": "#942D83",
+    "textColor": "#FFFFFF"
+  },
+  "SF:LOWL": {
+    "shortName": "LOWL",
+    "longName": "OWL TARAVAL",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#666666",
+    "textColor": "#FFFFFF"
+  },
+  "SF:M": {
+    "shortName": "M",
+    "longName": "OCEAN VIEW",
+    "mode": "metro",
+    "routeType": 0,
+    "color": "#008547",
+    "textColor": "#FFFFFF"
+  },
+  "SF:N": {
+    "shortName": "N",
+    "longName": "JUDAH",
+    "mode": "metro",
+    "routeType": 0,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:NBUS": {
+    "shortName": "NBUS",
+    "longName": "JUDAH BUS",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#005B95",
+    "textColor": "#FFFFFF"
+  },
+  "SF:NOWL": {
+    "shortName": "NOWL",
+    "longName": "OWL JUDAH",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#666666",
+    "textColor": "#FFFFFF"
+  },
+  "SF:PH": {
+    "shortName": "PH",
+    "longName": "POWELL-HYDE CABLE CAR",
+    "mode": "cableway",
+    "routeType": 5,
+    "color": "#B49A36",
+    "textColor": "#000000"
+  },
+  "SF:PM": {
+    "shortName": "PM",
+    "longName": "POWELL-MASON CABLE CAR",
+    "mode": "cableway",
+    "routeType": 5,
+    "color": "#B49A36",
+    "textColor": "#000000"
+  },
+  "SF:T": {
+    "shortName": "T",
+    "longName": "THIRD",
+    "mode": "metro",
+    "routeType": 0,
+    "color": "#BF2B45",
+    "textColor": "#FFFFFF"
+  },
+  "SF:TBUS": {
+    "shortName": "TBUS",
+    "longName": "THIRD BUS",
+    "mode": "bus",
+    "routeType": 3,
+    "color": "#BF2B45",
+    "textColor": "#FFFFFF"
+  }
+}

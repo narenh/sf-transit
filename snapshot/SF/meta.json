@@ -1,0 +1,8 @@
+{
+  "operator": "SF",
+  "serviceFrom": "2026-08-29",
+  "serviceTo": "2027-01-15",
+  "fetchedAt": "2026-09-22T23:12:36Z",
+  "source": "511 /transit/datafeeds + /transit/lines",
+  "sha256": "699dc30a7ce37e6b9e189baada186bf6187f0db33389e1d434d93bd7bc0c3799"
+}
