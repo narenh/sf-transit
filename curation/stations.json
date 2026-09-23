@@ -12310,21 +12310,6 @@
         }
       ]
     },
-    "market15": {
-      "name": "Market & 15th",
-      "platforms": [
-        {
-          "id": "SF:15653",
-          "heading": "southbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "marketSanchez",
-          "mode": "street"
-        }
-      ]
-    },
     "market16": {
       "name": "Market & 16th",
       "platforms": [
@@ -12776,7 +12761,14 @@
         {
           "id": "SF:15690",
           "heading": "southbound"
+        },
+        {
+          "id": "SF:15653",
+          "heading": "southbound"
         }
+      ],
+      "formerIds": [
+        "market15"
       ]
     },
     "marketSansome": {
