@@ -1,0 +1,58 @@
+{
+  "t-market-4th": {
+    "lines": [
+      "SF:T"
+    ],
+    "path": [
+      [
+        -122.404279,
+        37.784483
+      ],
+      [
+        -122.405844,
+        37.785749
+      ],
+      [
+        -122.405932,
+        37.785824
+      ],
+      [
+        -122.406013,
+        37.785902
+      ],
+      [
+        -122.406087,
+        37.785983
+      ],
+      [
+        -122.406154,
+        37.786066
+      ],
+      [
+        -122.406215,
+        37.786152
+      ],
+      [
+        -122.406268,
+        37.78624
+      ],
+      [
+        -122.406314,
+        37.786331
+      ],
+      [
+        -122.406353,
+        37.786425
+      ],
+      [
+        -122.406386,
+        37.786521
+      ],
+      [
+        -122.406411,
+        37.78662
+      ]
+    ],
+    "note": "511's shape jogs 35 m west along Market before turning up Stockton. The Central Subway runs straight down 4th St across Market and curves up into Stockton, arriving at O'Farrell. The curve is drawn tangent to both streets; it follows the user's description and has not been checked against as-built drawings."
+  }
+}
