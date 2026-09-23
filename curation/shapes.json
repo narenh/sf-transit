@@ -1,4 +1,21 @@
 {
+  "jk-balboa-park": {
+    "lines": [
+      "SF:J",
+      "SF:K"
+    ],
+    "path": [
+      [
+        -122.44668,
+        37.720667
+      ],
+      [
+        -122.446222,
+        37.721238
+      ]
+    ],
+    "note": "Carries the J and K from their boarding stop at San Jose & Geneva (SF:17778) down San Jose Ave to Balboa Park's centre at Geneva, where the M passes, so the three lines meet at the station. The track exists (the lead to the yard at Geneva), but no J or K trip in 511's data runs it."
+  },
   "t-market-4th": {
     "lines": [
       "SF:T"
