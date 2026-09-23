@@ -2,6 +2,9 @@
   "SF:13510": {
     "note": "1 of the 48's 869 trips. Feed name '25th St & Noe St'."
   },
+  "SF:15418": {
+    "note": "Timing point, not a stop: SFMTA's page for 15418 says it is for timing only, and eastbound J and K riders board at San Jose Ave & Geneva Ave (SF:17778, in balboaPark). 511 ends every J and K from downtown here."
+  },
   "SF:17067": {
     "note": "2 trips against 2581 run by the 29 and the 8 combined."
   },
