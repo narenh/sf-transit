@@ -70,6 +70,20 @@
     },
     {
       "between": [
+        "cyrilMagninMarket",
+        "market5"
+      ],
+      "mode": "street"
+    },
+    {
+      "between": [
+        "cyrilMagninMarket",
+        "powell"
+      ],
+      "mode": "street"
+    },
+    {
+      "between": [
         "embarcadero",
         "marketEmbarcaderoSubway"
       ],
@@ -99,6 +113,13 @@
     {
       "between": [
         "market4",
+        "powellMarket"
+      ],
+      "mode": "street"
+    },
+    {
+      "between": [
+        "market4",
         "unionSquare"
       ],
       "mode": "street"
@@ -112,8 +133,22 @@
     },
     {
       "between": [
+        "market5",
+        "powellMarket"
+      ],
+      "mode": "street"
+    },
+    {
+      "between": [
         "marketVanNess",
         "vanNess"
+      ],
+      "mode": "street"
+    },
+    {
+      "between": [
+        "powell",
+        "powellMarket"
       ],
       "mode": "street"
     },
@@ -12144,15 +12179,6 @@
         }
       ]
     },
-    "marketStBetween5th4": {
-      "name": "Market St Between 5th & 4th",
-      "platforms": [
-        {
-          "id": "SF:15644",
-          "heading": "eastbound"
-        }
-      ]
-    },
     "marketSteuart": {
       "name": "Market & Steuart",
       "platforms": [
@@ -16028,7 +16054,14 @@
         {
           "id": "SF:15688",
           "heading": "westbound"
+        },
+        {
+          "id": "SF:15644",
+          "heading": "eastbound"
         }
+      ],
+      "formerIds": [
+        "marketStBetween5th4"
       ]
     },
     "powellNorthPoint": {
