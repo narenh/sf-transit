@@ -23488,6 +23488,12 @@
           "heading": "southbound"
         }
       ],
+      "transfers": [
+        {
+          "to": "fourthFolsom",
+          "mode": "street"
+        }
+      ],
       "verified": "2026-09-22"
     },
     "yerbaBuenaRavenwood": {
