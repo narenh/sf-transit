@@ -49,6 +49,13 @@
     },
     {
       "between": [
+        "churchMarket",
+        "fourteenthChurch"
+      ],
+      "mode": "street"
+    },
+    {
+      "between": [
         "civicCenter",
         "market7"
       ],
@@ -65,6 +72,13 @@
       "between": [
         "embarcadero",
         "marketEmbarcaderoSubway"
+      ],
+      "mode": "street"
+    },
+    {
+      "between": [
+        "haightGough",
+        "marketGough"
       ],
       "mode": "street"
     },
