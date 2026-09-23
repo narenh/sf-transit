@@ -12768,15 +12768,14 @@
       "platforms": [
         {
           "id": "SF:17123",
+          "stops": [
+            "SF:15691"
+          ],
           "heading": "northbound"
         },
         {
           "id": "SF:15690",
           "heading": "southbound"
-        },
-        {
-          "id": "SF:15691",
-          "heading": "northbound"
         }
       ]
     },
