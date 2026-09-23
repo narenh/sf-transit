@@ -1247,6 +1247,7 @@
       "formerIds": [
         "sanJoseGeneva"
       ],
+      "hub": true,
       "note": "The M's stop on San Jose Ave (was sanJoseGeneva, \"Balboa Park (M Platform)\") merged in with the J and K's."
     },
     "balboaParkPresidio": {
@@ -8098,6 +8099,7 @@
         "fourthKingN",
         "fourthKingT"
       ],
+      "hub": true,
       "note": "Merged from fourthKingN (the N's stop on King St) and fourthKingT (the T's stops on 4th St), across the corner from each other."
     },
     "fourthTownsend": {
@@ -22826,7 +22828,8 @@
           "mode": "street"
         }
       ],
-      "verified": "2026-09-22"
+      "verified": "2026-09-22",
+      "hub": true
     },
     "unionTaylor": {
       "name": "Union & Taylor",
