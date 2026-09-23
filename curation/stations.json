@@ -25,6 +25,92 @@
       ]
     }
   },
+  "transfers": [
+    {
+      "between": [
+        "castro",
+        "castroPlaza"
+      ],
+      "mode": "street"
+    },
+    {
+      "between": [
+        "church",
+        "churchMarket"
+      ],
+      "mode": "street"
+    },
+    {
+      "between": [
+        "church",
+        "duboceChurchN"
+      ],
+      "mode": "street"
+    },
+    {
+      "between": [
+        "civicCenter",
+        "market7"
+      ],
+      "mode": "street"
+    },
+    {
+      "between": [
+        "civicCenter",
+        "market8"
+      ],
+      "mode": "street"
+    },
+    {
+      "between": [
+        "embarcadero",
+        "marketEmbarcaderoSubway"
+      ],
+      "mode": "street"
+    },
+    {
+      "between": [
+        "market2",
+        "montgomery"
+      ],
+      "mode": "street"
+    },
+    {
+      "between": [
+        "market4",
+        "powell"
+      ],
+      "mode": "street"
+    },
+    {
+      "between": [
+        "market4",
+        "unionSquare"
+      ],
+      "mode": "street"
+    },
+    {
+      "between": [
+        "market5",
+        "powell"
+      ],
+      "mode": "street"
+    },
+    {
+      "between": [
+        "marketVanNess",
+        "vanNess"
+      ],
+      "mode": "street"
+    },
+    {
+      "between": [
+        "powell",
+        "unionSquare"
+      ],
+      "mode": "indoor"
+    }
+  ],
   "stations": {
     "1076RhodeIsland": {
       "name": "1076 Rhode Island",
@@ -369,12 +455,6 @@
           "id": "SF:15887",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "irvingArguello",
-          "mode": "street"
-        }
       ]
     },
     "50ThomasMellon": {
@@ -392,12 +472,6 @@
         {
           "id": "SF:17688",
           "heading": "eastbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "irvingArguello",
-          "mode": "street"
         }
       ]
     },
@@ -1388,12 +1462,6 @@
           "note": "Was the only platform of station 'bayshoreLEland', which existed only because the feed spells its stop 'Bayshore Blvd &L eland Ave', a misplaced space. One corner: 21 m from SF:17329. Merged on 2026-09-22; 'bayshoreLEland' is in formerIds."
         }
       ],
-      "transfers": [
-        {
-          "to": "bayshoreArletaBlanken",
-          "mode": "street"
-        }
-      ],
       "formerIds": [
         "bayshoreLEland"
       ]
@@ -1431,12 +1499,6 @@
           "id": "SF:13792",
           "heading": "southbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "bayshoreArletaBlanken",
-          "mode": "street"
-        }
       ]
     },
     "bayshoreVisitacion": {
@@ -1453,12 +1515,6 @@
         {
           "id": "SF:16847",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "sunnydale",
-          "mode": "street"
         }
       ]
     },
@@ -1492,16 +1548,6 @@
         {
           "id": "SF:13089",
           "heading": "eastbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "embarcadero",
-          "mode": "street"
-        },
-        {
-          "to": "marketEmbarcaderoSubway",
-          "mode": "street"
         }
       ]
     },
@@ -1620,12 +1666,6 @@
           "id": "SF:13692",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "bayshoreArletaBlanken",
-          "mode": "street"
-        }
       ]
     },
     "bosworthDiamond": {
@@ -1646,12 +1686,6 @@
         {
           "id": "SF:13695",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "glenPark",
-          "mode": "street"
         }
       ]
     },
@@ -2192,12 +2226,6 @@
           "id": "SF:13723",
           "heading": "northbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "fourthBrannan",
-          "mode": "street"
-        }
       ]
     },
     "bryant5": {
@@ -2597,16 +2625,6 @@
           "id": "SF:13855",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "embarcadero",
-          "mode": "street"
-        },
-        {
-          "to": "marketEmbarcaderoSubway",
-          "mode": "street"
-        }
       ]
     },
     "californiaDivisadero": {
@@ -2641,16 +2659,6 @@
           "id": "SF:13860",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "embarcadero",
-          "mode": "street"
-        },
-        {
-          "to": "marketEmbarcaderoSubway",
-          "mode": "street"
-        }
       ]
     },
     "californiaFront": {
@@ -2663,12 +2671,6 @@
         {
           "id": "SF:13863",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "embarcadero",
-          "mode": "street"
         }
       ]
     },
@@ -3069,12 +3071,6 @@
           "heading": "westbound"
         }
       ],
-      "transfers": [
-        {
-          "to": "castroPlaza",
-          "mode": "street"
-        }
-      ],
       "verified": "2026-09-22"
     },
     "castro15": {
@@ -3100,16 +3096,6 @@
         {
           "id": "SF:14312",
           "heading": "southbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "castro",
-          "mode": "street"
-        },
-        {
-          "to": "castroPlaza",
-          "mode": "street"
         }
       ]
     },
@@ -3225,12 +3211,6 @@
           "heading": "eastbound"
         }
       ],
-      "transfers": [
-        {
-          "to": "castro",
-          "mode": "street"
-        }
-      ],
       "verified": "2026-09-22"
     },
     "cesarChavezFlorida": {
@@ -3305,20 +3285,6 @@
           "id": "SF:13966",
           "heading": "southbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "church29",
-          "mode": "street"
-        },
-        {
-          "to": "churchDay",
-          "mode": "street"
-        },
-        {
-          "to": "dolores30",
-          "mode": "street"
-        }
       ]
     },
     "cheneryCastro": {
@@ -3336,12 +3302,6 @@
         {
           "id": "SF:13968",
           "heading": "northbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "sanJoseRandall",
-          "mode": "street"
         }
       ]
     },
@@ -3390,12 +3350,6 @@
         {
           "id": "SF:13974",
           "heading": "southbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "sanJoseRandall",
-          "mode": "street"
         }
       ]
     },
@@ -3567,12 +3521,6 @@
           "id": "SF:13981",
           "heading": "southbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "juniperoSerra19",
-          "mode": "street"
-        }
       ]
     },
     "chumaseroGalindo": {
@@ -3594,16 +3542,6 @@
         {
           "id": "SF:16998",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "churchMarket",
-          "mode": "street"
-        },
-        {
-          "to": "duboceChurchN",
-          "mode": "street"
         }
       ],
       "verified": "2026-09-22"
@@ -3736,12 +3674,6 @@
           "id": "SF:18062",
           "heading": "eastbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "church",
-          "mode": "street"
-        }
       ]
     },
     "cityCollegeBookstore": {
@@ -3755,16 +3687,6 @@
           "id": "SF:15923",
           "heading": "southbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "oceanCCSF",
-          "mode": "street"
-        },
-        {
-          "to": "oceanLee",
-          "mode": "street"
-        }
       ]
     },
     "cityCollegeTerminal": {
@@ -3773,16 +3695,6 @@
         {
           "id": "SF:15926",
           "heading": "eastbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "oceanCCSF",
-          "mode": "street"
-        },
-        {
-          "to": "oceanLee",
-          "mode": "street"
         }
       ]
     },
@@ -3805,16 +3717,6 @@
         {
           "id": "SF:16997",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "market7",
-          "mode": "street"
-        },
-        {
-          "to": "market8",
-          "mode": "street"
         }
       ],
       "transferAgencies": [
@@ -3904,12 +3806,6 @@
         {
           "id": "SF:14018",
           "heading": "eastbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "chinatownRosePak",
-          "mode": "street"
         }
       ]
     },
@@ -4021,12 +3917,6 @@
           "id": "SF:14029",
           "heading": "eastbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "chinatownRosePak",
-          "mode": "street"
-        }
       ]
     },
     "clayTaylor": {
@@ -4061,12 +3951,6 @@
         {
           "id": "SF:14074",
           "heading": "southbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "carlCole",
-          "mode": "street"
         }
       ]
     },
@@ -4260,12 +4144,6 @@
           "id": "SF:14094",
           "heading": "southbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "carlCole",
-          "mode": "street"
-        }
       ]
     },
     "coleHaight": {
@@ -4300,12 +4178,6 @@
           "id": "SF:15889",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "carlCole",
-          "mode": "street"
-        }
       ]
     },
     "coleWaller": {
@@ -4323,12 +4195,6 @@
         {
           "id": "SF:14100",
           "heading": "eastbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "jonesBeach",
-          "mode": "street"
         }
       ]
     },
@@ -4417,12 +4283,6 @@
         {
           "id": "SF:14116",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "jonesBeach",
-          "mode": "street"
         }
       ]
     },
@@ -4789,12 +4649,6 @@
           "id": "SF:14157",
           "heading": "eastbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "dolores30",
-          "mode": "street"
-        }
       ]
     },
     "cortlandPrentiss": {
@@ -4958,12 +4812,6 @@
           "id": "SF:14207",
           "heading": "eastbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "holloway19",
-          "mode": "street"
-        }
       ]
     },
     "crissyFieldTerminal": {
@@ -5013,16 +4861,6 @@
           "id": "SF:13612",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "market5",
-          "mode": "street"
-        },
-        {
-          "to": "powell",
-          "mode": "street"
-        }
       ]
     },
     "dalyCityBartParkingLotE": {
@@ -5062,16 +4900,6 @@
         {
           "id": "SF:14347",
           "heading": "eastbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "embarcadero",
-          "mode": "street"
-        },
-        {
-          "to": "marketEmbarcaderoSubway",
-          "mode": "street"
         }
       ]
     },
@@ -5783,12 +5611,6 @@
           "heading": "southbound"
         }
       ],
-      "transfers": [
-        {
-          "to": "church",
-          "mode": "street"
-        }
-      ],
       "formerIds": [
         "churchDuboceJ"
       ],
@@ -6000,12 +5822,6 @@
           "id": "SF:14493",
           "heading": "eastbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "market5",
-          "mode": "street"
-        }
       ]
     },
     "eddyVanNess": {
@@ -6048,16 +5864,6 @@
           "id": "SF:13325",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "castro",
-          "mode": "street"
-        },
-        {
-          "to": "castroPlaza",
-          "mode": "street"
-        }
       ]
     },
     "eighteenthChurch": {
@@ -6070,12 +5876,6 @@
         {
           "id": "SF:13322",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "doloresPark18",
-          "mode": "street"
         }
       ]
     },
@@ -6111,12 +5911,6 @@
         {
           "id": "SF:13330",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "doloresPark18",
-          "mode": "street"
         }
       ]
     },
@@ -6178,12 +5972,6 @@
         {
           "id": "SF:13340",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "seventeenthNoe",
-          "mode": "street"
         }
       ]
     },
@@ -6294,16 +6082,6 @@
           "id": "SF:17926",
           "heading": "northbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "irving8",
-          "mode": "street"
-        },
-        {
-          "to": "judah9",
-          "mode": "street"
-        }
       ]
     },
     "eleventhBryant": {
@@ -6352,16 +6130,6 @@
           "id": "SF:13245",
           "heading": "southbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "marketVanNess",
-          "mode": "street"
-        },
-        {
-          "to": "vanNess",
-          "mode": "street"
-        }
       ]
     },
     "ellsworthCrescent": {
@@ -6387,12 +6155,6 @@
         {
           "id": "SF:17217",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "marketEmbarcaderoSubway",
-          "mode": "street"
         }
       ],
       "transferAgencies": [
@@ -6542,12 +6304,6 @@
           "id": "SF:14531",
           "heading": "southbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "embarcaderoBrannan",
-          "mode": "street"
-        }
       ]
     },
     "embarcaderoWashington": {
@@ -6579,20 +6335,6 @@
         {
           "id": "SF:14546",
           "heading": "eastbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "juniperoSerraOcean",
-          "mode": "street"
-        },
-        {
-          "to": "rightOfWayEucalyptus",
-          "mode": "street"
-        },
-        {
-          "to": "rightOfWayOcean",
-          "mode": "street"
         }
       ]
     },
@@ -6705,12 +6447,6 @@
           "id": "SF:14555",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "thirdEvans",
-          "mode": "street"
-        }
       ]
     },
     "evansPhelps": {
@@ -6723,12 +6459,6 @@
         {
           "id": "SF:14559",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "thirdEvans",
-          "mode": "street"
         }
       ]
     },
@@ -7250,12 +6980,6 @@
           "id": "SF:14648",
           "heading": "eastbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "thirdGilmanPaul",
-          "mode": "street"
-        }
       ]
     },
     "foersterFlood": {
@@ -7665,12 +7389,6 @@
           "id": "SF:13606",
           "heading": "southbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "sfZoo",
-          "mode": "street"
-        }
       ]
     },
     "fortySixthIrving": {
@@ -7839,12 +7557,6 @@
           "id": "SF:13604",
           "heading": "northbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "sfZoo",
-          "mode": "street"
-        }
       ]
     },
     "fortyThirdClement": {
@@ -7908,20 +7620,6 @@
           "heading": "westbound",
           "note": "See 13254 - the westbound half of the same pair."
         }
-      ],
-      "transfers": [
-        {
-          "to": "church",
-          "mode": "street"
-        },
-        {
-          "to": "duboceChurchN",
-          "mode": "street"
-        },
-        {
-          "to": "churchMarket",
-          "mode": "street"
-        }
       ]
     },
     "fourteenthNoe": {
@@ -7957,20 +7655,6 @@
           "id": "SF:13260",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "church",
-          "mode": "street"
-        },
-        {
-          "to": "churchMarket",
-          "mode": "street"
-        },
-        {
-          "to": "marketSanchez",
-          "mode": "street"
-        }
       ]
     },
     "fourteenthSantiago": {
@@ -7997,12 +7681,6 @@
           "id": "SF:13249",
           "heading": "southbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "taraval1517",
-          "mode": "street"
-        }
       ]
     },
     "fourthBerry": {
@@ -8011,12 +7689,6 @@
         {
           "id": "SF:17366",
           "heading": "southbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "fourthKing",
-          "mode": "street"
         }
       ]
     },
@@ -8047,12 +7719,6 @@
         {
           "id": "SF:14658",
           "heading": "eastbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "yerbaBuenaMoscone",
-          "mode": "street"
         }
       ]
     },
@@ -8106,12 +7772,6 @@
           "id": "SF:17235",
           "heading": "eastbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "fourthKing",
-          "mode": "street"
-        }
       ]
     },
     "fowlerPortola": {
@@ -8130,16 +7790,6 @@
           "id": "SF:14714",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "carlHillway",
-          "mode": "street"
-        },
-        {
-          "to": "irvingArguello",
-          "mode": "street"
-        }
       ]
     },
     "frederickStanyan": {
@@ -8152,12 +7802,6 @@
         {
           "id": "SF:14718",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "carlStanyan",
-          "mode": "street"
         }
       ]
     },
@@ -8172,12 +7816,6 @@
           "id": "SF:14719",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "carlStanyan",
-          "mode": "street"
-        }
       ]
     },
     "fremontMarket": {
@@ -8186,16 +7824,6 @@
         {
           "id": "SF:14725",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "embarcadero",
-          "mode": "street"
-        },
-        {
-          "to": "market1",
-          "mode": "street"
         }
       ]
     },
@@ -8885,20 +8513,6 @@
           "id": "SF:14301",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "market2",
-          "mode": "street"
-        },
-        {
-          "to": "market3",
-          "mode": "street"
-        },
-        {
-          "to": "montgomery",
-          "mode": "street"
-        }
       ]
     },
     "gearyLaguna": {
@@ -9012,12 +8626,6 @@
           "id": "SF:14766",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "unionSquare",
-          "mode": "street"
-        }
       ]
     },
     "gearyTaylor": {
@@ -9070,12 +8678,6 @@
         {
           "id": "SF:14803",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "balboaPark",
-          "mode": "street"
         }
       ]
     },
@@ -9132,12 +8734,6 @@
         {
           "id": "SF:15038",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "oceanCCSF",
-          "mode": "street"
         }
       ]
     },
@@ -9580,12 +9176,6 @@
           "id": "SF:14954",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "marketGough",
-          "mode": "street"
-        }
       ]
     },
     "haightLaguna": {
@@ -9768,12 +9358,6 @@
           "id": "SF:14997",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "market9",
-          "mode": "street"
-        }
       ]
     },
     "hayesLyon": {
@@ -9864,12 +9448,6 @@
         {
           "id": "SF:15018",
           "heading": "southbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "duboceChurchN",
-          "mode": "street"
         }
       ]
     },
@@ -10062,12 +9640,6 @@
           "id": "SF:17772",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "thirdHudsonInnes",
-          "mode": "street"
-        }
       ]
     },
     "hudsonWhitneyYoungCir": {
@@ -10189,16 +9761,6 @@
         {
           "id": "SF:15071",
           "heading": "southbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "civicCenter",
-          "mode": "street"
-        },
-        {
-          "to": "market8",
-          "mode": "street"
         }
       ]
     },
@@ -10997,12 +10559,6 @@
           "id": "SF:15191",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "judah9",
-          "mode": "street"
-        }
       ]
     },
     "judah9": {
@@ -11104,12 +10660,6 @@
           "id": "SF:15134",
           "heading": "northbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "randolph19",
-          "mode": "street"
-        }
       ]
     },
     "juniperoSerraFont": {
@@ -11118,12 +10668,6 @@
         {
           "id": "SF:15136",
           "heading": "southbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "randolph19",
-          "mode": "street"
         }
       ]
     },
@@ -11167,12 +10711,6 @@
         {
           "id": "SF:15141",
           "heading": "southbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "sloatStFrancis",
-          "mode": "street"
         }
       ]
     },
@@ -11222,12 +10760,6 @@
         {
           "id": "SF:15462",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "embarcaderoBay",
-          "mode": "street"
         }
       ]
     },
@@ -11339,12 +10871,6 @@
           "id": "SF:15247",
           "heading": "southbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "forestHill",
-          "mode": "street"
-        }
       ]
     },
     "lagunaHondaBlvdoppForestHill": {
@@ -11353,12 +10879,6 @@
         {
           "id": "SF:15245",
           "heading": "northbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "forestHill",
-          "mode": "street"
         }
       ]
     },
@@ -11381,12 +10901,6 @@
         {
           "id": "SF:15244",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "forestHill",
-          "mode": "street"
         }
       ]
     },
@@ -11515,16 +11029,6 @@
         {
           "id": "SF:14848",
           "heading": "northbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "market8",
-          "mode": "street"
-        },
-        {
-          "to": "market9",
-          "mode": "street"
         }
       ]
     },
@@ -11925,16 +11429,6 @@
           "id": "SF:15325",
           "heading": "eastbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "carlHillway",
-          "mode": "street"
-        },
-        {
-          "to": "irvingArguello",
-          "mode": "street"
-        }
       ]
     },
     "lincolnWayFunston": {
@@ -12155,16 +11649,6 @@
           "id": "SF:15335",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "embarcadero",
-          "mode": "street"
-        },
-        {
-          "to": "marketEmbarcaderoSubway",
-          "mode": "street"
-        }
       ]
     },
     "mansellBrussels": {
@@ -12317,20 +11801,6 @@
           "id": "SF:15667",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "castro",
-          "mode": "street"
-        },
-        {
-          "to": "castroPlaza",
-          "mode": "street"
-        },
-        {
-          "to": "seventeenthNoe",
-          "mode": "street"
-        }
       ]
     },
     "market2": {
@@ -12343,12 +11813,6 @@
         {
           "id": "SF:15685",
           "heading": "eastbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "montgomery",
-          "mode": "street"
         }
       ],
       "verified": "2026-09-22"
@@ -12385,16 +11849,6 @@
           "id": "SF:13161",
           "heading": "southbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "powell",
-          "mode": "street"
-        },
-        {
-          "to": "unionSquare",
-          "mode": "street"
-        }
       ]
     },
     "market5": {
@@ -12411,12 +11865,6 @@
         {
           "id": "SF:15646",
           "heading": "eastbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "powell",
-          "mode": "street"
         }
       ]
     },
@@ -12460,12 +11908,6 @@
           "id": "SF:13196",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "civicCenter",
-          "mode": "street"
-        }
       ]
     },
     "market8": {
@@ -12486,12 +11928,6 @@
         {
           "id": "SF:17423",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "civicCenter",
-          "mode": "street"
         }
       ]
     },
@@ -12516,16 +11952,6 @@
           "id": "SF:15658",
           "heading": "eastbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "embarcadero",
-          "mode": "street"
-        },
-        {
-          "to": "marketEmbarcaderoSubway",
-          "mode": "street"
-        }
       ]
     },
     "marketCastro": {
@@ -12547,16 +11973,6 @@
         {
           "id": "SF:17253",
           "heading": "eastbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "castro",
-          "mode": "street"
-        },
-        {
-          "to": "castroPlaza",
-          "mode": "street"
         }
       ]
     },
@@ -12589,12 +12005,6 @@
           "id": "SF:15336",
           "heading": "northbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "embarcadero",
-          "mode": "street"
-        }
       ]
     },
     "marketFront": {
@@ -12603,16 +12013,6 @@
         {
           "id": "SF:15671",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "embarcadero",
-          "mode": "street"
-        },
-        {
-          "to": "market1",
-          "mode": "street"
         }
       ]
     },
@@ -12637,16 +12037,6 @@
           "id": "SF:15674",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "market4",
-          "mode": "street"
-        },
-        {
-          "to": "unionSquare",
-          "mode": "street"
-        }
       ]
     },
     "marketGuerrero": {
@@ -12670,16 +12060,6 @@
           "id": "SF:15683",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "market5",
-          "mode": "street"
-        },
-        {
-          "to": "market6",
-          "mode": "street"
-        }
       ]
     },
     "marketMontgomery": {
@@ -12688,20 +12068,6 @@
         {
           "id": "SF:15684",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "market2",
-          "mode": "street"
-        },
-        {
-          "to": "market3",
-          "mode": "street"
-        },
-        {
-          "to": "montgomery",
-          "mode": "street"
         }
       ]
     },
@@ -12721,20 +12087,6 @@
         {
           "id": "SF:15654",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "castro",
-          "mode": "street"
-        },
-        {
-          "to": "castroPlaza",
-          "mode": "street"
-        },
-        {
-          "to": "seventeenthNoe",
-          "mode": "street"
         }
       ],
       "formerIds": [
@@ -12771,20 +12123,6 @@
           "id": "SF:15689",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "market1",
-          "mode": "street"
-        },
-        {
-          "to": "market2",
-          "mode": "street"
-        },
-        {
-          "to": "montgomery",
-          "mode": "street"
-        }
       ]
     },
     "marketStBetween4th3": {
@@ -12794,20 +12132,6 @@
           "id": "SF:15642",
           "heading": "northbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "market3",
-          "mode": "street"
-        },
-        {
-          "to": "market4",
-          "mode": "street"
-        },
-        {
-          "to": "unionSquare",
-          "mode": "street"
-        }
       ]
     },
     "marketStBetween5th4": {
@@ -12816,16 +12140,6 @@
         {
           "id": "SF:15644",
           "heading": "eastbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "market4",
-          "mode": "street"
-        },
-        {
-          "to": "powell",
-          "mode": "street"
         }
       ]
     },
@@ -12843,20 +12157,6 @@
         {
           "id": "SF:17227",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "donCheeWaySteuart",
-          "mode": "street"
-        },
-        {
-          "to": "embarcaderoFerryBuilding",
-          "mode": "street"
-        },
-        {
-          "to": "marketEmbarcaderoSubway",
-          "mode": "street"
         }
       ]
     },
@@ -12878,12 +12178,6 @@
         {
           "id": "SF:18105",
           "heading": "southbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "vanNess",
-          "mode": "street"
         }
       ]
     },
@@ -13198,12 +12492,6 @@
           "id": "SF:17563",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "market7",
-          "mode": "street"
-        }
       ]
     },
     "mcallisterLaguna": {
@@ -13238,16 +12526,6 @@
         {
           "id": "SF:17635",
           "heading": "eastbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "civicCenter",
-          "mode": "street"
-        },
-        {
-          "to": "market7",
-          "mode": "street"
         }
       ]
     },
@@ -13441,12 +12719,6 @@
           "id": "SF:15528",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "market1",
-          "mode": "street"
-        }
       ]
     },
     "mission11": {
@@ -13516,16 +12788,6 @@
           "id": "SF:15529",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "market2",
-          "mode": "street"
-        },
-        {
-          "to": "montgomery",
-          "mode": "street"
-        }
       ]
     },
     "mission20": {
@@ -13582,12 +12844,6 @@
           "id": "SF:15532",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "market3",
-          "mode": "street"
-        }
       ]
     },
     "mission4": {
@@ -13618,12 +12874,6 @@
           "id": "SF:15536",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "market5",
-          "mode": "street"
-        }
       ]
     },
     "mission6": {
@@ -13636,12 +12886,6 @@
         {
           "id": "SF:15538",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "market6",
-          "mode": "street"
         }
       ]
     },
@@ -13659,12 +12903,6 @@
         {
           "id": "SF:15539",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "market7",
-          "mode": "street"
         }
       ]
     },
@@ -13696,12 +12934,6 @@
           "id": "SF:15543",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "market9",
-          "mode": "street"
-        }
       ]
     },
     "missionActon": {
@@ -13732,12 +12964,6 @@
         {
           "id": "SF:15578",
           "heading": "southbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "sanJoseRandall",
-          "mode": "street"
         }
       ]
     },
@@ -13969,12 +13195,6 @@
         {
           "id": "SF:17994",
           "heading": "southbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "donCheeWaySteuart",
-          "mode": "street"
         }
       ]
     },
@@ -14226,12 +13446,6 @@
           "heading": "westbound"
         }
       ],
-      "transfers": [
-        {
-          "to": "market2",
-          "mode": "street"
-        }
-      ],
       "transferAgencies": [
         "BA"
       ],
@@ -14468,12 +13682,6 @@
           "id": "SF:17428",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "thirdEvans",
-          "mode": "street"
-        }
       ]
     },
     "newhallOakdale": {
@@ -14483,12 +13691,6 @@
           "id": "SF:15491",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "thirdOakdalePalou",
-          "mode": "street"
-        }
       ]
     },
     "nineteenthBuckinghamWay": {
@@ -14497,12 +13699,6 @@
         {
           "id": "SF:13352",
           "heading": "southbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "winston19",
-          "mode": "street"
         }
       ]
     },
@@ -14524,16 +13720,6 @@
         {
           "id": "SF:14544",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "rightOfWayEucalyptus",
-          "mode": "street"
-        },
-        {
-          "to": "rightOfWayOcean",
-          "mode": "street"
         }
       ]
     },
@@ -14560,12 +13746,6 @@
         {
           "id": "SF:13363",
           "heading": "southbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "juniperoSerra19",
-          "mode": "street"
         }
       ]
     },
@@ -14686,12 +13866,6 @@
         {
           "id": "SF:17448",
           "heading": "southbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "winston19",
-          "mode": "street"
         }
       ]
     },
@@ -15026,12 +14200,6 @@
           "id": "SF:15460",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "jonesBeach",
-          "mode": "street"
-        }
       ]
     },
     "northPointMason": {
@@ -15044,12 +14212,6 @@
         {
           "id": "SF:15466",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "beachMason",
-          "mode": "street"
         }
       ]
     },
@@ -15080,12 +14242,6 @@
         {
           "id": "SF:15470",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "pier39",
-          "mode": "street"
         }
       ]
     },
@@ -15249,16 +14405,6 @@
           "id": "SF:18014",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "oceanCCSF",
-          "mode": "street"
-        },
-        {
-          "to": "oceanLee",
-          "mode": "street"
-        }
       ]
     },
     "oceanHowth": {
@@ -15272,12 +14418,6 @@
           "id": "SF:15790",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "oceanCCSF",
-          "mode": "street"
-        }
       ]
     },
     "oceanI280OnRamp": {
@@ -15286,12 +14426,6 @@
         {
           "id": "SF:17804",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "sanJoseOcean",
-          "mode": "street"
         }
       ]
     },
@@ -15405,16 +14539,6 @@
         {
           "id": "SF:15810",
           "heading": "eastbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "market4",
-          "mode": "street"
-        },
-        {
-          "to": "unionSquare",
-          "mode": "street"
         }
       ]
     },
@@ -15770,12 +14894,6 @@
           "id": "SF:17756",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "thirdOakdalePalou",
-          "mode": "street"
-        }
       ]
     },
     "palouPhelps": {
@@ -15877,16 +14995,6 @@
           "id": "SF:15891",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "carlHillway",
-          "mode": "street"
-        },
-        {
-          "to": "irvingArguello",
-          "mode": "street"
-        }
       ]
     },
     "parnassusShrader": {
@@ -15899,16 +15007,6 @@
         {
           "id": "SF:15893",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "carlCole",
-          "mode": "street"
-        },
-        {
-          "to": "carlStanyan",
-          "mode": "street"
         }
       ]
     },
@@ -15923,12 +15021,6 @@
           "id": "SF:15895",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "carlStanyan",
-          "mode": "street"
-        }
       ]
     },
     "parnassusWillard": {
@@ -15941,12 +15033,6 @@
         {
           "id": "SF:15897",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "carlStanyan",
-          "mode": "street"
         }
       ]
     },
@@ -15965,12 +15051,6 @@
         {
           "id": "SF:15900",
           "heading": "eastbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "thirdGilmanPaul",
-          "mode": "street"
         }
       ]
     },
@@ -15993,12 +15073,6 @@
         {
           "id": "SF:15902",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "thirdGilmanPaul",
-          "mode": "street"
         }
       ]
     },
@@ -16276,12 +15350,6 @@
           "id": "SF:15965",
           "heading": "southbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "broadPlymouth",
-          "mode": "street"
-        }
       ]
     },
     "plymouthMangels": {
@@ -16321,16 +15389,6 @@
           "id": "SF:15975",
           "heading": "southbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "oceanLee",
-          "mode": "street"
-        },
-        {
-          "to": "oceanMiramar",
-          "mode": "street"
-        }
       ]
     },
     "plymouthSagamore": {
@@ -16343,12 +15401,6 @@
         {
           "id": "SF:15977",
           "heading": "southbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "broadPlymouth",
-          "mode": "street"
         }
       ]
     },
@@ -16559,12 +15611,6 @@
           "id": "SF:17151",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "westPortal",
-          "mode": "street"
-        }
       ]
     },
     "portolaDelSur": {
@@ -16671,12 +15717,6 @@
           "id": "SF:16125",
           "heading": "eastbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "unionSquare",
-          "mode": "street"
-        }
       ]
     },
     "postHyde": {
@@ -16694,20 +15734,6 @@
         {
           "id": "SF:16019",
           "heading": "eastbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "market2",
-          "mode": "street"
-        },
-        {
-          "to": "market3",
-          "mode": "street"
-        },
-        {
-          "to": "montgomery",
-          "mode": "street"
         }
       ]
     },
@@ -16860,20 +15886,6 @@
           "heading": "westbound"
         }
       ],
-      "transfers": [
-        {
-          "to": "unionSquare",
-          "mode": "indoor"
-        },
-        {
-          "to": "market4",
-          "mode": "street"
-        },
-        {
-          "to": "market5",
-          "mode": "street"
-        }
-      ],
       "transferAgencies": [
         "BA"
       ],
@@ -16898,20 +15910,6 @@
         {
           "id": "SF:17038",
           "heading": "southbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "beachMason",
-          "mode": "street"
-        },
-        {
-          "to": "jeffersonPowell",
-          "mode": "street"
-        },
-        {
-          "to": "pier39",
-          "mode": "street"
         }
       ]
     },
@@ -16942,12 +15940,6 @@
         {
           "id": "SF:14027",
           "heading": "eastbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "chinatownRosePak",
-          "mode": "street"
         }
       ]
     },
@@ -16988,12 +15980,6 @@
           "id": "SF:14757",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "unionSquare",
-          "mode": "street"
-        }
       ]
     },
     "powellJackson": {
@@ -17002,12 +15988,6 @@
         {
           "id": "SF:16059",
           "heading": "northbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "chinatownRosePak",
-          "mode": "street"
         }
       ]
     },
@@ -17039,16 +16019,6 @@
           "id": "SF:15688",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "market5",
-          "mode": "street"
-        },
-        {
-          "to": "powell",
-          "mode": "street"
-        }
       ]
     },
     "powellNorthPoint": {
@@ -17061,12 +16031,6 @@
         {
           "id": "SF:16066",
           "heading": "southbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "beachMason",
-          "mode": "street"
         }
       ]
     },
@@ -17084,12 +16048,6 @@
         {
           "id": "SF:15817",
           "heading": "eastbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "unionSquare",
-          "mode": "street"
         }
       ]
     },
@@ -17120,12 +16078,6 @@
         {
           "id": "SF:16022",
           "heading": "eastbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "unionSquare",
-          "mode": "street"
         }
       ]
     },
@@ -17644,12 +16596,6 @@
           "id": "SF:16253",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "thirdRevereShafter",
-          "mode": "street"
-        }
       ]
     },
     "rhodeIsland15": {
@@ -18051,16 +16997,6 @@
           "id": "SF:16294",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "embarcadero",
-          "mode": "street"
-        },
-        {
-          "to": "marketEmbarcaderoSubway",
-          "mode": "street"
-        }
       ]
     },
     "sacramentoFranklin": {
@@ -18194,12 +17130,6 @@
           "id": "SF:16316",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "chinatownRosePak",
-          "mode": "street"
-        }
       ]
     },
     "sacramentoVanNess": {
@@ -18239,12 +17169,6 @@
           "id": "SF:16322",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "broadCapitol",
-          "mode": "street"
-        }
       ]
     },
     "sagamoreOrizaba": {
@@ -18267,12 +17191,6 @@
           "id": "SF:16507",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "sloatStFrancis",
-          "mode": "street"
-        }
       ]
     },
     "saintFrancisSantaAna": {
@@ -18294,12 +17212,6 @@
         {
           "id": "SF:16352",
           "heading": "northbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "bayshoreArletaBlanken",
-          "mode": "street"
         }
       ]
     },
@@ -18379,12 +17291,6 @@
           "id": "SF:16366",
           "heading": "southbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "bayshoreArletaBlanken",
-          "mode": "street"
-        }
       ]
     },
     "sanBrunoThornton": {
@@ -18456,12 +17362,6 @@
         {
           "id": "SF:16260",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "balboaPark",
-          "mode": "street"
         }
       ]
     },
@@ -18557,12 +17457,6 @@
         {
           "id": "SF:16332",
           "heading": "northbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "market1",
-          "mode": "street"
         }
       ]
     },
@@ -18744,12 +17638,6 @@
         {
           "id": "SF:13314",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "castro",
-          "mode": "street"
         }
       ]
     },
@@ -19120,12 +18008,6 @@
         {
           "id": "SF:13284",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "church16",
-          "mode": "street"
         }
       ]
     },
@@ -19505,12 +18387,6 @@
           "id": "SF:16450",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "sfZoo",
-          "mode": "street"
-        }
       ]
     },
     "sloat47": {
@@ -19523,12 +18399,6 @@
         {
           "id": "SF:17208",
           "heading": "eastbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "sfZoo",
-          "mode": "street"
         }
       ]
     },
@@ -19642,12 +18512,6 @@
           "id": "SF:16464",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "sloatStFrancis",
-          "mode": "street"
-        }
       ]
     },
     "southHillPrague": {
@@ -19679,12 +18543,6 @@
           "id": "SF:17995",
           "heading": "southbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "embarcaderoFolsom",
-          "mode": "street"
-        }
       ]
     },
     "spearMarket": {
@@ -19693,20 +18551,6 @@
         {
           "id": "SF:16475",
           "heading": "eastbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "donCheeWaySteuart",
-          "mode": "street"
-        },
-        {
-          "to": "embarcadero",
-          "mode": "street"
-        },
-        {
-          "to": "marketEmbarcaderoSubway",
-          "mode": "street"
         }
       ]
     },
@@ -19827,16 +18671,6 @@
           "id": "SF:16498",
           "heading": "southbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "donCheeWaySteuart",
-          "mode": "street"
-        },
-        {
-          "to": "embarcaderoFerryBuilding",
-          "mode": "street"
-        }
       ]
     },
     "stillLyell": {
@@ -19945,12 +18779,6 @@
           "id": "SF:16526",
           "heading": "southbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "chinatownRosePak",
-          "mode": "street"
-        }
       ]
     },
     "sunnydale": {
@@ -20038,12 +18866,6 @@
         {
           "id": "SF:16583",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "sunnydale",
-          "mode": "street"
         }
       ]
     },
@@ -20241,16 +19063,6 @@
         {
           "id": "SF:16606",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "market2",
-          "mode": "street"
-        },
-        {
-          "to": "montgomery",
-          "mode": "street"
         }
       ]
     },
@@ -20785,12 +19597,6 @@
           "id": "SF:13016",
           "heading": "southbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "thirdMissionRock",
-          "mode": "street"
-        }
       ]
     },
     "thirdBayview": {
@@ -20799,12 +19605,6 @@
         {
           "id": "SF:13113",
           "heading": "southbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "thirdRevereShafter",
-          "mode": "street"
         }
       ]
     },
@@ -20879,12 +19679,6 @@
           "id": "SF:17320",
           "heading": "northbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "thirdGilmanPaul",
-          "mode": "street"
-        }
       ]
     },
     "thirdFolsom": {
@@ -20906,12 +19700,6 @@
         {
           "id": "SF:17324",
           "heading": "southbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "ucsfChaseCenter",
-          "mode": "street"
         }
       ]
     },
@@ -21031,12 +19819,6 @@
           "id": "SF:17382",
           "heading": "southbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "ucsfMedicalCenter",
-          "mode": "street"
-        }
       ]
     },
     "thirdMissionRock": {
@@ -21114,12 +19896,6 @@
           "id": "SF:13146",
           "heading": "southbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "thirdGilmanPaul",
-          "mode": "street"
-        }
       ]
     },
     "thirdUnderwood": {
@@ -21129,12 +19905,6 @@
           "id": "SF:18177",
           "heading": "northbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "thirdWilliams",
-          "mode": "street"
-        }
       ]
     },
     "thirdWarriorsWay": {
@@ -21143,12 +19913,6 @@
         {
           "id": "SF:17321",
           "heading": "northbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "ucsfChaseCenter",
-          "mode": "street"
         }
       ]
     },
@@ -21195,16 +19959,6 @@
           "heading": "westbound",
           "note": "30th & Church is its own station, not part of data.json's churchDay. churchDay's southbound platform 14004 is a southbound-only J stop at Church & Day, a separate place from 30th & Church; its northbound platform 14000 is confusingly named 'Church St & 30th St' in the feed, so any rule that matches on platform names would wrongly merge these. Verified on the ground."
         }
-      ],
-      "transfers": [
-        {
-          "to": "church29",
-          "mode": "street"
-        },
-        {
-          "to": "churchDay",
-          "mode": "street"
-        }
       ]
     },
     "thirtiethMission": {
@@ -21225,12 +19979,6 @@
         {
           "id": "SF:13540",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "dolores30",
-          "mode": "street"
         }
       ]
     },
@@ -21309,12 +20057,6 @@
         {
           "id": "SF:13534",
           "heading": "southbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "taraval30",
-          "mode": "street"
         }
       ]
     },
@@ -21547,12 +20289,6 @@
           "id": "SF:18110",
           "heading": "northbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "fourthKing",
-          "mode": "street"
-        }
       ]
     },
     "transitCenterBay27": {
@@ -21755,16 +20491,6 @@
           "id": "SF:16733",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "market5",
-          "mode": "street"
-        },
-        {
-          "to": "market6",
-          "mode": "street"
-        }
       ]
     },
     "twentiethCollingwood": {
@@ -21829,12 +20555,6 @@
         {
           "id": "SF:16951",
           "heading": "southbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "winston19",
-          "mode": "street"
         }
       ]
     },
@@ -22045,12 +20765,6 @@
           "id": "SF:13466",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "church24",
-          "mode": "street"
-        }
       ]
     },
     "twentyFourthDouglass": {
@@ -22166,12 +20880,6 @@
         {
           "id": "SF:13481",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "church24",
-          "mode": "street"
         }
       ]
     },
@@ -22375,12 +21083,6 @@
           "id": "SF:13441",
           "heading": "southbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "judah22",
-          "mode": "street"
-        }
       ]
     },
     "twentyThirdKansas": {
@@ -22537,12 +21239,6 @@
           "id": "SF:18039",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "westPortal",
-          "mode": "street"
-        }
       ]
     },
     "ulloaForestSide": {
@@ -22556,12 +21252,6 @@
           "id": "SF:16736",
           "heading": "westbound"
         }
-      ],
-      "transfers": [
-        {
-          "to": "ulloa14",
-          "mode": "street"
-        }
       ]
     },
     "ulloaLenoxWay": {
@@ -22570,12 +21260,6 @@
         {
           "id": "SF:16738",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "westPortal",
-          "mode": "street"
         }
       ]
     },
@@ -22589,12 +21273,6 @@
         {
           "id": "SF:16744",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "westPortal",
-          "mode": "street"
         }
       ]
     },
@@ -22783,16 +21461,6 @@
           "heading": "southbound"
         }
       ],
-      "transfers": [
-        {
-          "to": "powell",
-          "mode": "indoor"
-        },
-        {
-          "to": "market4",
-          "mode": "street"
-        }
-      ],
       "verified": "2026-09-22",
       "hub": true
     },
@@ -22923,12 +21591,6 @@
         {
           "id": "SF:16996",
           "heading": "westbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "marketVanNess",
-          "mode": "street"
         }
       ],
       "verified": "2026-09-22"
@@ -23198,12 +21860,6 @@
         {
           "id": "SF:16927",
           "heading": "eastbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "chinatownRosePak",
-          "mode": "street"
         }
       ]
     },
@@ -23486,12 +22142,6 @@
         {
           "id": "SF:17873",
           "heading": "southbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "fourthFolsom",
-          "mode": "street"
         }
       ],
       "verified": "2026-09-22"
