@@ -29,7 +29,7 @@
     {
       "between": [
         "castro",
-        "castroPlaza"
+        "marketCastro"
       ],
       "mode": "street"
     },
@@ -3202,16 +3202,6 @@
           "heading": "southbound"
         }
       ]
-    },
-    "castroPlaza": {
-      "name": "Castro Plaza",
-      "platforms": [
-        {
-          "id": "SF:13311",
-          "heading": "eastbound"
-        }
-      ],
-      "verified": "2026-09-22"
     },
     "cesarChavezFlorida": {
       "name": "Cesar Chavez & Florida",
@@ -11955,7 +11945,7 @@
       ]
     },
     "marketCastro": {
-      "name": "Castro & 17th",
+      "name": "Castro & Market",
       "platforms": [
         {
           "id": "SF:14313",
@@ -11968,12 +11958,18 @@
         },
         {
           "id": "SF:15665",
+          "stops": [
+            "SF:17253"
+          ],
           "heading": "eastbound"
         },
         {
-          "id": "SF:17253",
+          "id": "SF:13311",
           "heading": "eastbound"
         }
+      ],
+      "formerIds": [
+        "castroPlaza"
       ]
     },
     "marketDolores": {
@@ -11991,7 +11987,7 @@
       "verified": "2026-09-22"
     },
     "marketEmbarcaderoSubway": {
-      "name": "Market & Embarcadero Subway",
+      "name": "Embarcadero & Market",
       "platforms": [
         {
           "id": "SF:15682",
