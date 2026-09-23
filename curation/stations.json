@@ -84,6 +84,13 @@
     },
     {
       "between": [
+        "eleventhMarket",
+        "marketVanNess"
+      ],
+      "mode": "street"
+    },
+    {
+      "between": [
         "embarcadero",
         "marketEmbarcaderoSubway"
       ],
