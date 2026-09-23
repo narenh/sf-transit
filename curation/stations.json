@@ -1235,18 +1235,19 @@
         {
           "id": "SF:17778",
           "heading": "northbound"
-        }
-      ],
-      "transfers": [
+        },
         {
-          "to": "sanJoseGeneva",
-          "mode": "street"
+          "id": "SF:16262",
+          "heading": "eastbound"
         }
       ],
       "transferAgencies": [
         "BA"
       ],
-      "verified": "2026-09-22"
+      "formerIds": [
+        "sanJoseGeneva"
+      ],
+      "note": "The M's stop on San Jose Ave (was sanJoseGeneva, \"Balboa Park (M Platform)\") merged in with the J and K's."
     },
     "balboaParkPresidio": {
       "name": "Balboa & Park Presidio",
@@ -9087,10 +9088,6 @@
       "transfers": [
         {
           "to": "balboaPark",
-          "mode": "street"
-        },
-        {
-          "to": "sanJoseGeneva",
           "mode": "street"
         }
       ]
@@ -18482,22 +18479,6 @@
       ],
       "verified": "2026-09-22"
     },
-    "sanJoseGeneva": {
-      "name": "Balboa Park (M Platform)",
-      "platforms": [
-        {
-          "id": "SF:16262",
-          "heading": "eastbound"
-        }
-      ],
-      "transfers": [
-        {
-          "to": "balboaPark",
-          "mode": "street"
-        }
-      ],
-      "verified": "2026-09-22"
-    },
     "sanJoseGeneva2": {
       "name": "San Jose & Geneva",
       "platforms": [
@@ -18513,10 +18494,6 @@
       "transfers": [
         {
           "to": "balboaPark",
-          "mode": "street"
-        },
-        {
-          "to": "sanJoseGeneva",
           "mode": "street"
         }
       ]
