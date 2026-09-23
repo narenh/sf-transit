@@ -5566,9 +5566,19 @@
         {
           "id": "SF:13987",
           "heading": "southbound"
+        },
+        {
+          "id": "SF:13323",
+          "heading": "eastbound"
+        },
+        {
+          "id": "SF:13322",
+          "heading": "westbound"
         }
       ],
-      "verified": "2026-09-22"
+      "formerIds": [
+        "eighteenthChurch"
+      ]
     },
     "doloresPark20": {
       "name": "Dolores Park - 20th St 🏳️‍🌈",
@@ -5908,19 +5918,6 @@
         },
         {
           "id": "SF:13325",
-          "heading": "westbound"
-        }
-      ]
-    },
-    "eighteenthChurch": {
-      "name": "18th & Church",
-      "platforms": [
-        {
-          "id": "SF:13323",
-          "heading": "eastbound"
-        },
-        {
-          "id": "SF:13322",
           "heading": "westbound"
         }
       ]
@@ -11991,15 +11988,6 @@
       ],
       "verified": "2026-09-22"
     },
-    "marketBeale": {
-      "name": "Market & Beale",
-      "platforms": [
-        {
-          "id": "SF:15658",
-          "heading": "eastbound"
-        }
-      ]
-    },
     "marketCastro": {
       "name": "Castro & Market",
       "platforms": [
@@ -12056,7 +12044,14 @@
         {
           "id": "SF:15336",
           "heading": "northbound"
+        },
+        {
+          "id": "SF:15658",
+          "heading": "eastbound"
         }
+      ],
+      "formerIds": [
+        "marketBeale"
       ]
     },
     "marketFront": {
@@ -20346,7 +20341,8 @@
       "platforms": [
         {
           "id": "SF:17918",
-          "heading": "southbound"
+          "heading": "southbound",
+          "name": "Bay 27"
         }
       ]
     },
@@ -20355,7 +20351,8 @@
       "platforms": [
         {
           "id": "SF:17948",
-          "heading": "northbound"
+          "heading": "northbound",
+          "name": "Bay 29"
         }
       ]
     },
@@ -20364,7 +20361,8 @@
       "platforms": [
         {
           "id": "SF:17914",
-          "heading": "westbound"
+          "heading": "westbound",
+          "name": "Bay B"
         }
       ]
     },
@@ -20373,7 +20371,8 @@
       "platforms": [
         {
           "id": "SF:17915",
-          "heading": "westbound"
+          "heading": "westbound",
+          "name": "Bay C"
         }
       ]
     },
@@ -20382,7 +20381,8 @@
       "platforms": [
         {
           "id": "SF:17916",
-          "heading": "southbound"
+          "heading": "southbound",
+          "name": "Bay D"
         }
       ]
     },
@@ -20391,7 +20391,8 @@
       "platforms": [
         {
           "id": "SF:17917",
-          "heading": "westbound"
+          "heading": "westbound",
+          "name": "Bay E"
         }
       ]
     },
