@@ -3710,15 +3710,14 @@
         },
         {
           "id": "SF:15662",
+          "stops": [
+            "SF:18062"
+          ],
           "heading": "eastbound"
         },
         {
           "id": "SF:15661",
           "heading": "westbound"
-        },
-        {
-          "id": "SF:18062",
-          "heading": "eastbound"
         }
       ]
     },
